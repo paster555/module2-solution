@@ -1,14 +1,16 @@
-/********** Base styles **********/
+/********** Base styles reseting browser preset margins and box size**********/
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
+/********** Container body font family and font size ***********/
 body {
   font-family: sans-serif;
   font-size: 100%;
 }
+/********** Container H2 styles for region position on section with margins
+, size, border and !float clearing!********/
 h2{
   position: absolute;
   top: 0px;
@@ -140,8 +142,7 @@ h1 {
   .col-md-12 {
     width: 100%;
   }
-}
-  
+}  
   /********** Small devices only **********/
 ***@media (max-width: 767px){  
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
